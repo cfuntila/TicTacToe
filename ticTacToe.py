@@ -149,9 +149,6 @@ for i in range(9):
 
   print(f"Hi {currPlayer.name}")
 
-  # x = input("Which row do you want: ") 
-  # y = input("Which col do you want: ") 
-
   boxNum = input("Enter the box number you want to fill: ")
   if not boxNum.isdigit():
     print("Invalid Box Number: Make sure you entered a number 1-9 and the box is empty!")
